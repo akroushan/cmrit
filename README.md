@@ -32,3 +32,5 @@ For ubuntu 14.04
 4. sudo apt-get install -y mongodb-org
 5. Now start mongodb : sudo service mongod start
 
+P.s : If you get any error like this : <i>Failed global initialization: BadValue Invalid or no user locale set. Please ensure LANG and/or LC_* environment variables are set correctly.</i> Please use this command "export LC_ALL=C"
+
