@@ -18,9 +18,11 @@ Create a folder called "cmrit"
 
 
 Install git (version control)
+
 1. sudo apt-get install git
 
 Install mongoDB
+
 1. sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 2. For ubuntu 12.02 
           echo "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
